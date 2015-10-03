@@ -3,7 +3,7 @@ osx_image: xcode7
 
 env:
   global:
-    secure: !!! to be configured !!!
+    secure: "mjAtxXmh7iKrZf4V4lE261FBrRweXjzKa5LWkIcfC77j7WMY7JqLSZY/0JH3disTjjl8ixVK0WVQ72WJTavlL+c/iKV2YbwxMFY45zM5wj5hCgGoNJPHn++KZiVLSv/DUcwpvYs9Sws+LzBXOdhdvf8UsSuTcEcQ3LQcB1NfNTHSKOYUD7u973tDZm+GHgEHH1678AO30kDNT8A2Ruzg07qME7csQ7DOTzC7zbWsaVv3qtiYaC5aVGnPNyRJi2LklVicBUmPzgseBWWAKPvhhETLgqQUtvTw8L26+3jMZE6dNdJkOPw3rso8KOvzjfKcLZFSYjmnFVU8FTCCAjDzTcEAJbw7aCBrkhL7ddvQVhwHuV09DmftMvuYxmUEZ/wDuoSNSrhOUdGwdDWGC37gZ7oF1mgrjukcdwO0KwsgaMvWfrXjGB7Pg1WK/dUYHTfQIoU0iYAza7sBMxiwD916K7FDevZ8Bn5AU8H/5m2M0T0PueXyRkaTbE/Ucl/goO31GeYdY0Adu5K8ZHK+GyvW7u8EeY1JcDuwJ0HDwKQtU3rJZ1zupfG8lIf8N1Qj55m9XhKDzmLj2fSM5zf5IN3NduEx4CHWtVM3gsOrYLIZiaP59WFAB/xueMEYRSuKZNnLscv9JqZKok4WJJEmQwm/ErYKx5zh/3yCCss82kDgyqU="
 
 before_install:
   - ./script/import-certificates || true
@@ -19,7 +19,7 @@ script:
 deploy:
   provider: releases
   api_key:
-    secure: !!! to be configured !!!
+      secure: PXNkit9ka7E6iGcBoNlcrNQ6400gJPzVYNCSH/loLM0dt5GrK83tLOM6VXJMtvU9GEWQJN1cr4y2Ybf64ANJQABDkNl7nLCwxH70pu4KZxxmy4l+9XEVSUtJypmyoTEq6laEUjmNf6vJ11a1ks2yvNMZ00nQavlPp7iJGPSlQq+mD6O7kc9YA232mJbcsCDx5a6QigPM7Ufw67w7gsl/Bi05GpToFGgkmQHUbbnQ+V2y+1SMHGXYNnb3yOLNWw1OZ7zfL8+AQICkEcaXtN9VCLmWkEqtxz9TQCPPMoVAJePuFpqyP8pt+M39ziKAiq9yNOySDeWUcqX5pchB0RdT/OtgMVhsmPw8evUHCKWdg+U3wUbKmw0GmoduxZDr9Na1ZB2M/qjXRFD72rlWjAWoDKju/vl4OH0HduvddaCeJEKTvpg1C+60WQgtToM6Yd2wgHjOYpomx0zxXMecTKcBXVyfDWISEkvoG7zAEuZM1IvNrKUB0gkEz8Uom6xowJjxUOGx76npuUIJRuS/wqCAldqRMOpds4Drnn7vJ1KA/wZJfekBKREm5E29zwrSg0PfAQ1+k55r/0+5Dxuv2E/XQt4jwsYsQmvxprME4yVcNlo3a/kTjotBjlLwiQ65IvPVGy6PSACkdsIKgEv+Gpq07PxYAFCPA6CheBrxG3mkE8Y=
   file: Result.framework.zip
   on:
     repo: antitypical/Result
