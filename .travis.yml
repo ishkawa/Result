@@ -23,7 +23,7 @@ deploy:
   file: Result.framework.zip
   skip_cleanup: true
   on:
-    repo: antitypical/Result
+    repo: ishkawa/Result
     tags: true
     all_branches: true
 
