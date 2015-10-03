@@ -21,6 +21,7 @@ deploy:
   api_key:
       secure: PXNkit9ka7E6iGcBoNlcrNQ6400gJPzVYNCSH/loLM0dt5GrK83tLOM6VXJMtvU9GEWQJN1cr4y2Ybf64ANJQABDkNl7nLCwxH70pu4KZxxmy4l+9XEVSUtJypmyoTEq6laEUjmNf6vJ11a1ks2yvNMZ00nQavlPp7iJGPSlQq+mD6O7kc9YA232mJbcsCDx5a6QigPM7Ufw67w7gsl/Bi05GpToFGgkmQHUbbnQ+V2y+1SMHGXYNnb3yOLNWw1OZ7zfL8+AQICkEcaXtN9VCLmWkEqtxz9TQCPPMoVAJePuFpqyP8pt+M39ziKAiq9yNOySDeWUcqX5pchB0RdT/OtgMVhsmPw8evUHCKWdg+U3wUbKmw0GmoduxZDr9Na1ZB2M/qjXRFD72rlWjAWoDKju/vl4OH0HduvddaCeJEKTvpg1C+60WQgtToM6Yd2wgHjOYpomx0zxXMecTKcBXVyfDWISEkvoG7zAEuZM1IvNrKUB0gkEz8Uom6xowJjxUOGx76npuUIJRuS/wqCAldqRMOpds4Drnn7vJ1KA/wZJfekBKREm5E29zwrSg0PfAQ1+k55r/0+5Dxuv2E/XQt4jwsYsQmvxprME4yVcNlo3a/kTjotBjlLwiQ65IvPVGy6PSACkdsIKgEv+Gpq07PxYAFCPA6CheBrxG3mkE8Y=
   file: Result.framework.zip
+  skip_cleanup: true
   on:
     repo: antitypical/Result
     tags: true
